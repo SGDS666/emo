@@ -1,0 +1,36 @@
+.box{
+    width: 100vw;
+    height: 100vh;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 20;
+    .start,.pause{
+        width: 20vmax;
+        height: 10vmin;
+        background-color: rgba(4, 0, 255, 0.285);
+        border-radius: 1vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        
+    }
+    .pause{
+        background-color: rgba(255, 0, 0, 0.135);
+    }
+    .change{
+        width: 20vmax;
+        height: 5vmin;
+        background-color: rgba(75, 59, 64, 0.118);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 1vw;
+        margin: 2vh;
+        // background-color: black;
+    }
+}
